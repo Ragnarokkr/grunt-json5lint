@@ -1,0 +1,21 @@
+{
+    "bitwise": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "freeze": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "nonew": true,
+    "quotmark": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+    "boss": true,
+    "eqnull": true,
+    "sub": true,
+    "node": true
+}

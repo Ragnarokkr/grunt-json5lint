@@ -1,0 +1,42 @@
+{
+    "requireSpaceAfterKeywords": [
+        "if", "else", "for", "while", "do", "switch", "return", "try",
+        "catch"
+    ],
+    "requireSpacesInFunctionExpression": {
+        "beforeOpeningRoundBrace": true,
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInAnonymousFunctionExpression": {
+        "beforeOpeningRoundBrace": true,
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInNamedFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireBlocksOnNewline": true,
+    "requireSpacesInsideObjectBrackets": "all",
+    "requireSpacesInsideArrayBrackets": "all",
+    "disallowSpaceAfterObjectKeys": true,
+    "disallowLeftStickedOperators": [
+        "?", "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=",
+        "<", "<=", "&&", "||"
+    ],
+    "requireLeftStickedOperators": [ "," ],
+    "disallowSpaceAfterPrefixUnaryOperators": [
+        "++", "--", "+", "-", "~", "!"
+    ],
+    "disallowSpaceBeforePostfixUnaryOperators": [ "++", "--" ],
+    "requireSpaceBeforeBinaryOperators": [
+        "+", "-", "/", "*", "=", "==", "===", "!=", "!==", "&&", "||"
+    ],
+    "requireSpaceAfterBinaryOperators": [
+        "+", "-", "/", "*", "=", "==", "===", "!=", "!==", "&&", "||"
+    ],
+    "disallowKeywords": [ "with" ],
+    "validateLineBreaks": "LF",
+    "disallowKeywordsOnNewLine": [ "catch", "else" ],
+    "requireLineFeedAtFileEnd": true,
+    "safeContextKeyword": [ "that" ],
+    "excludeFiles": [ "node_modules/**", "vendor/**" ]
+}

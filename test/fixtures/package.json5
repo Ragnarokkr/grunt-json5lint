@@ -1,0 +1,49 @@
+{
+    name: 'grunt-jsonlint',
+    description: 'Validate JSON/JSON5 files.',
+    version: '0.1.0',
+    homepage: 'https://github.com/ragnarokkr/grunt-jsonlint',
+    author: {
+        name: 'Marco Trulla',
+        email: 'developing@marcotrulla.it',
+        url: 'http://marcotrulla.it'
+    },
+    repository: {
+        type: 'git',
+        url: 'git://github.com/ragnarokkr/grunt-jsonlint.git'
+    },
+    bugs: {
+        url: 'https://github.com/ragnarokkr/grunt-jsonlint/issues'
+    },
+    licenses: [
+        {
+            type: 'MIT',
+            url: 'https://github.com/ragnarokkr/grunt-jsonlint/blob/master/LICENSE-MIT'
+        }
+    ],
+    engines: {
+        node: '>= 0.10.0'
+    },
+    scripts: {
+        test: 'grunt test'
+    },
+    dependencies: {
+        'sprintf-js': '~1.0.0',
+        json5: '~0.2.0'
+    },
+    devDependencies: {
+        'grunt-contrib-jshint': '~0.6.0',
+        grunt: '~0.4.4'
+    },
+    peerDependencies: {
+        grunt: '~0.4.4'
+    },
+    keywords: [
+        'gruntplugin',
+        'json',
+        'json5',
+        'lint',
+        'linter',
+        'validator'
+    ]
+}
